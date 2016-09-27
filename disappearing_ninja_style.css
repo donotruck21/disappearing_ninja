@@ -1,0 +1,14 @@
+.container{
+	border: 1px dotted red;
+}
+
+.hamster_photo{
+	padding: 15px;
+	border: 1px solid black;
+	margin: 5px;
+	background-color: gray;
+}
+
+.hamster_div{
+	display: inline-block;
+}

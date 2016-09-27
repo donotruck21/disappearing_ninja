@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Disappearing Ninja</title>
+	<link rel="stylesheet" type="text/css" href="disappearing_ninja_style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".hamster_div").click(function(){
+				$(this).hide("fast")
+			});
+			$("#revive_hamster").click(function(){
+				$(".hamster_div").show()
+			});
+	});
+	</script>
+
+</head>
+
+
+<body>
+	<div class="container">
+		<h2>jQuery - disappearing hamster</h2>
+		<div class="hamster_div">
+			<img class="hamster_photo" src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e9258132e328b68f818d0ddf3b34f46d" alt="hamster_img" height= 150>
+		</div>
+		<div class="hamster_div">
+			<img class="hamster_photo" src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e9258132e328b68f818d0ddf3b34f46d" alt="hamster_img" height= 150>
+		</div>
+		<div class="hamster_div">
+			<img class="hamster_photo" src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e9258132e328b68f818d0ddf3b34f46d" alt="hamster_img" height= 150>
+		</div>
+		<div class="hamster_div">
+			<img class="hamster_photo" src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e9258132e328b68f818d0ddf3b34f46d" alt="hamster_img" height= 150>
+		</div>
+		<div class="hamster_div">
+			<img class="hamster_photo" src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e9258132e328b68f818d0ddf3b34f46d" alt="hamster_img" height= 150>
+		</div>
+		<div class="hamster_div">
+			<img class="hamster_photo" src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e9258132e328b68f818d0ddf3b34f46d" alt="hamster_img" height= 150>
+		</div>
+		<div class="hamster_div">
+			<img class="hamster_photo" src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e9258132e328b68f818d0ddf3b34f46d" alt="hamster_img" height= 150>
+		</div>
+		<div class="hamster_div">
+			<img class="hamster_photo" src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e9258132e328b68f818d0ddf3b34f46d" alt="hamster_img" height= 150>
+		</div>
+		<button id="revive_hamster" type="button" class="btn btn-info">Revive Hamsters!</button>
+	</div>
+</body>
+
+</html>
